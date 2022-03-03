@@ -14,7 +14,7 @@
                      :show="timeUntilDismissed"
                      @alert-dismissed="timeUntilDismissed = 0"
                      @alert-dismiss-countdown="handleTimeChange">The user name or password is incorrect.</d-alert>
-            <d-button class="mt-2" theme="primary" type="submit">Login</d-button>
+            <d-button class="mt-2" theme="primary" type="submit">登录</d-button>
           </d-form>
         </d-card-body>
       </d-card>
