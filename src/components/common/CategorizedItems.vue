@@ -2,7 +2,7 @@
   <d-card class="card-small">
 
     <div class="card-body border-bottom">
-      <d-input-group prepend="Categories" class="mb-3">
+      <d-input-group prepend="类别" class="mb-3">
         <d-select @change="changeCategory">
           <option v-for="(category, idx) in categories" :key="idx" :value="category">
             {{ category }}

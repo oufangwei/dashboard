@@ -50,7 +50,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: 'Positive Feedback Rate',
+      default: '正反馈率',
     },
     chartData: {
       type: Object,

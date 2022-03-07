@@ -3,8 +3,8 @@
     <!-- Page Header -->
     <d-row no-gutters class="page-header py-4">
       <d-col col sm="4" class="text-center text-sm-left mb-4 mb-sm-0">
-        <span class="text-uppercase page-subtitle">Dashboard</span>
-        <h3 class="page-title">Overview</h3>
+        <span class="text-uppercase page-subtitle">智能推荐系统</span>
+        <h3 class="page-title">概览</h3>
       </d-col>
     </d-row>
 
@@ -25,10 +25,10 @@
     <d-row>
       <d-col lg="7" md="12" sm="12" class="mb-4">
         <d-tabs>
-          <d-tab title="Popular Items" active>
+          <d-tab title="热门条目" active>
             <bo-top-items :api="'/api/dashboard/popular/'" />
           </d-tab>
-          <d-tab title="Latest Items">
+          <d-tab title="最新条目">
             <bo-top-items :api="'/api/dashboard/latest/'" />
           </d-tab>
         </d-tabs>
@@ -62,25 +62,25 @@ export default {
       cacheSize: 100,
       smallStats:
        [{
-         label: 'Users',
+         label: '用户',
          value: '--',
          tip: '',
        }, {
-         label: 'Items',
+         label: '条目',
          value: '--',
          tip: '',
        }, {
-         label: 'Total Positive',
+         label: '全部正向',
          value: '--',
          tip: '',
        }, {
-         label: 'Valid Positive',
+         label: '有效正向',
          value: '--',
-         tip: 'A positive feedback is valid only if this user has both positive feedback and negative feedback',
+         tip: '只有当该用户同时拥有正面反馈和负面反馈时，正面反馈才有效',
        }, {
-         label: 'Valid Negative',
+         label: '有效负向',
          value: '--',
-         tip: 'A negative feedback is valid only if this user has both positive feedback and negative feedback',
+         tip: '只有当该用户同时拥有正面反馈和负面反馈时，负面反馈才有效',
        }],
       popularItems: [],
       latestItems: [],
