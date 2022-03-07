@@ -3,8 +3,8 @@
     <!-- Page Header -->
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
-        <span class="text-uppercase page-subtitle">Overview</span>
-        <h3 class="page-title">Items</h3>
+        <span class="text-uppercase page-subtitle">概览</span>
+        <h3 class="page-title">条目</h3>
       </div>
     </div>
 
@@ -13,13 +13,13 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">Items</h6>
+            <h6 class="m-0">条目</h6>
           </div>
           <div class="card-body border-bottom">
             <d-input-group>
               <d-input
                 id="item_id"
-                placeholder="Item ID"
+                placeholder="条目ID"
                 v-model="item_id"
                 @keyup.enter.native="search_item"
               />
@@ -38,11 +38,11 @@
               <thead class="bg-light">
                 <tr>
                   <th scope="col" class="border-0">ID</th>
-                  <th scope="col" class="border-0">Categories</th>
-                  <th scope="col" class="border-0">Hidden</th>
-                  <th scope="col" class="border-0">Timestamp</th>
-                  <th scope="col" class="border-0">Labels</th>
-                  <th scope="col" class="border-0">Description</th>
+                  <th scope="col" class="border-0">类别</th>
+                  <th scope="col" class="border-0">隐藏</th>
+                  <th scope="col" class="border-0">时间戳</th>
+                  <th scope="col" class="border-0">标签</th>
+                  <th scope="col" class="border-0">描述</th>
                   <th scope="col" class="border-0"></th>
                 </tr>
               </thead>
@@ -85,7 +85,7 @@
                         params: { item_id: item.ItemId },
                       }"
                     >
-                      <d-button size="small" outline>Neighbors</d-button>
+                      <d-button size="small" outline>邻居</d-button>
                     </router-link>
                   </td>
                 </tr>

@@ -3,8 +3,8 @@
     <!-- Page Header -->
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
-        <span class="text-uppercase page-subtitle">Overview</span>
-        <h3 class="page-title">Users</h3>
+        <span class="text-uppercase page-subtitle">概览</span>
+        <h3 class="page-title">用户</h3>
       </div>
     </div>
 
@@ -13,14 +13,14 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">Users</h6>
+            <h6 class="m-0">用户</h6>
           </div>
           <div class="card-body border-bottom">
             <d-input-group>
               <d-input
                 id="user_id"
                 v-model="user_id"
-                placeholder="User ID"
+                placeholder="用户ID"
                 @keyup.enter.native="search_user"
               />
               <d-input-group-addon append>
@@ -38,9 +38,9 @@
               <thead class="bg-light">
                 <tr>
                   <th scope="col" class="border-0">ID</th>
-                  <th scope="col" class="border-0">Labels</th>
-                  <th scope="col" class="border-0">Last Active</th>
-                  <th scope="col" class="border-0">Last Update</th>
+                  <th scope="col" class="border-0">标签</th>
+                  <th scope="col" class="border-0">最近活跃</th>
+                  <th scope="col" class="border-0">最近更新</th>
                   <th scope="col" class="border-0"></th>
                   <th scope="col" class="border-0"></th>
                 </tr>
@@ -69,7 +69,7 @@
                         params: { user_id: user.UserId },
                       }"
                     >
-                      <d-button size="small" outline>Neighbors</d-button>
+                      <d-button outline>邻居</d-button>
                     </router-link>
                   </td>
                   <td>
@@ -79,7 +79,7 @@
                         params: { user_id: user.UserId },
                       }"
                     >
-                      <d-button size="small" outline>Insight</d-button>
+                      <d-button size="small" outline>了解</d-button>
                     </router-link>
                   </td>
                 </tr>

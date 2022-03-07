@@ -3,8 +3,8 @@
     <!-- Page Header -->
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
-        <span class="text-uppercase page-subtitle">Overview</span>
-        <h3 class="page-title">Advance</h3>
+        <span class="text-uppercase page-subtitle">概览</span>
+        <h3 class="page-title">高级功能</h3>
       </div>
     </div>
 
@@ -13,7 +13,7 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">Data Export</h6>
+            <h6 class="m-0">导出数据</h6>
           </div>
           <div class="card-body p-0 pb-3">
             <d-list-group flush>
@@ -22,15 +22,14 @@
                   <d-col sm="12" md="2">
                     <a :href="'/api/bulk/users'">
                       <d-button class="advance_button" outline
-                        >&nbsp;&nbsp;&nbsp;Export
-                        Users&nbsp;&nbsp;&nbsp;</d-button
+                        >&nbsp;&nbsp;&nbsp;导出用户&nbsp;&nbsp;&nbsp;</d-button
                       >
                     </a>
                   </d-col>
                   <d-col sm="12" md="10">
                     <label
-                      >Export users into a csv file. The format is "user_id,
-                      labels".</label
+                      >将用户数据导出到csv文件。格式为“user_id,
+                      labels”。</label
                     >
                   </d-col>
                 </d-row>
@@ -40,15 +39,14 @@
                   <d-col sm="12" md="2">
                     <a :href="'/api/bulk/items'">
                       <d-button class="advance_button" outline
-                        >&nbsp;&nbsp;&nbsp;Export
-                        Items&nbsp;&nbsp;&nbsp;</d-button
+                        >&nbsp;&nbsp;&nbsp;导出条目&nbsp;&nbsp;&nbsp;</d-button
                       >
                     </a>
                   </d-col>
                   <d-col sm="12" md="10">
                     <label
-                      >Export items into a csv file. The format is "item_id, is_hidden, categories,
-                      timestamp, labels, description".</label
+                      >将条目数据导出到csv文件。格式为“item_id, is_hidden, categories,
+                      timestamp, labels, description”。</label
                     >
                   </d-col>
                 </d-row>
@@ -57,13 +55,13 @@
                 <d-row>
                   <d-col sm="12" md="2">
                     <a :href="'/api/bulk/feedback'">
-                      <d-button outline>Export Feedback</d-button>
+                      <d-button outline>导出反馈</d-button>
                     </a>
                   </d-col>
                   <d-col sm="12" md="10">
                     <label
-                      >Export feedbacks into a csv file. The format is
-                      "feedback_type, user_id, item_id, timestamp".</label
+                      >将反馈数据导出为csv文件。格式为
+                      “feedback_type, user_id, item_id, timestamp”。</label
                     >
                   </d-col>
                 </d-row>
@@ -78,7 +76,7 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">Data Import</h6>
+            <h6 class="m-0">导入数据</h6>
           </div>
           <div class="card-body p-0 pb-3">
             <d-list-group flush>
@@ -87,13 +85,12 @@
                   <d-col sm="12" md="2">
                     <router-link :to="{ name: 'import_users' }">
                       <d-button outline
-                        >&nbsp;&nbsp;&nbsp;Import
-                        Users&nbsp;&nbsp;&nbsp;</d-button
+                        >&nbsp;&nbsp;&nbsp;导入用户&nbsp;&nbsp;&nbsp;</d-button
                       >
                     </router-link>
                   </d-col>
                   <d-col sm="12" md="10">
-                    <label>Import users into gorse.</label>
+                    <label>将用户数据导入gorse。</label>
                   </d-col>
                 </d-row>
               </d-list-group-item>
@@ -102,13 +99,12 @@
                   <d-col sm="12" md="2">
                     <router-link :to="{ name: 'import_items' }">
                       <d-button outline
-                        >&nbsp;&nbsp;&nbsp;Import
-                        Items&nbsp;&nbsp;&nbsp;</d-button
+                        >&nbsp;&nbsp;&nbsp;导入条目&nbsp;&nbsp;&nbsp;</d-button
                       >
                     </router-link>
                   </d-col>
                   <d-col sm="12" md="10">
-                    <label>Import items into gorse.</label>
+                    <label>将条目数据导入gorse。</label>
                   </d-col>
                 </d-row>
               </d-list-group-item>
@@ -116,11 +112,11 @@
                 <d-row>
                   <d-col sm="12" md="2">
                     <router-link :to="{ name: 'import_feedback' }">
-                      <d-button outline>Import Feedback</d-button>
+                      <d-button outline>导入反馈</d-button>
                     </router-link>
                   </d-col>
                   <d-col sm="12" md="10">
-                    <label>Import feedbacks into gorse.</label>
+                    <label>将反馈数据导入gorse。</label>
                   </d-col>
                 </d-row>
               </d-list-group-item>

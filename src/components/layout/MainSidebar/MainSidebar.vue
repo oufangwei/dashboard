@@ -5,7 +5,7 @@
           <a class="navbar-brand w-100 mr-0" href="#" style="line-height: 25px;">
             <div class="d-table m-auto">
               <img id="main-logo" class="d-inline-block align-top mr-1" style="max-width: 25px;" src="@/assets/images/gorse.png" alt="Shards Dashboard">
-              <span v-if="!hideLogoText" class="d-none d-md-inline ml-1">Gorse Dashboard</span>
+              <span v-if="!hideLogoText" class="d-none d-md-inline ml-1">Gorse控制面板</span>
             </div>
           </a>
           <a class="toggle-sidebar d-sm-inline d-md-none d-lg-none" @click="handleToggleSidebar()">

@@ -1,43 +1,43 @@
 export default function () {
   return [{
-    title: 'Overview',
+    title: '概览',
     to: {
       name: 'overview',
     },
     htmlBefore: '<i class="material-icons">show_chart</i>',
     htmlAfter: '',
   }, {
-    title: 'Tasks',
+    title: '任务',
     htmlBefore: '<i class="material-icons">task</i>',
     to: {
       name: 'tasks',
     },
   }, {
-    title: 'Cluster',
+    title: '聚簇',
     htmlBefore: '<i class="material-icons">dns</i>',
     to: {
       name: 'cluster',
     },
   }, {
-    title: 'Users',
+    title: '用户',
     htmlBefore: '<i class="material-icons">person</i>',
     to: {
       name: 'users',
     },
   }, {
-    title: 'Items',
+    title: '条目',
     htmlBefore: '<i class="material-icons">inventory_2</i>',
     to: {
       name: 'items',
     },
   }, {
-    title: 'Advance',
+    title: '高级功能',
     htmlBefore: '<i class="material-icons">subject</i>',
     to: {
       name: 'advance',
     },
   }, {
-    title: 'Settings',
+    title: '设置',
     htmlBefore: '<i class="material-icons">settings</i>',
     to: {
       name: 'config',

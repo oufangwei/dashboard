@@ -2,7 +2,7 @@
   <d-card class="card-small">
     <!-- Card Header -->
     <d-card-header class="border-bottom">
-      <h6 class="m-0">Recommend</h6>
+      <h6 class="m-0">推荐</h6>
       <div class="block-handle"></div>
     </d-card-header>
 
@@ -21,7 +21,7 @@
             </d-select></d-col
           >
           <d-col sm="6"
-            ><d-input-group prepend="Categories" class="mb-3">
+            ><d-input-group prepend="类别" class="mb-3">
               <d-select v-model="category" @change="changeCategory">
                 <option
                   v-for="(category, idx) in categories"
@@ -116,11 +116,11 @@ export default {
       recommender: '',
       category: '',
       options: [
-        { value: '', text: 'Recommendation' },
-        { value: 'offline', text: 'Offline Recommendation' },
-        { value: 'collaborative', text: 'Collaborative Recommendation' },
-        { value: 'item_based', text: 'Item-based Recommendation' },
-        { value: 'user_based', text: 'User-based Recommendation' },
+        { value: '', text: '推荐' },
+        { value: 'offline', text: '离线推荐' },
+        { value: 'collaborative', text: '协同推荐' },
+        { value: 'item_based', text: '基于条目的推荐' },
+        { value: 'user_based', text: '基于用户的推荐' },
       ],
     };
   },
