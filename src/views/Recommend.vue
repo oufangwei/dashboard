@@ -3,14 +3,14 @@
     <!-- Page Header -->
     <d-row no-gutters class="page-header py-4">
       <d-col col sm="4" class="text-center text-sm-left mb-4 mb-sm-0">
-        <span class="text-uppercase page-subtitle">User ID:</span>
+        <span class="text-uppercase page-subtitle">用户ID:</span>
         <h3 class="page-title">{{ user_id }}</h3>
       </d-col>
     </d-row>
 
     <d-row>
       <d-col lg="6" md="12" sm="12" class="mb-4">
-        <bo-top-items :title="'Positive Feedback'" :items="feedback"/>
+        <bo-top-items :title="'正反馈'" :items="feedback"/>
       </d-col>
 
       <d-col lg="6" md="12" sm="12" class="mb-4">

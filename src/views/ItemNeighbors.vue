@@ -3,7 +3,7 @@
     <!-- Page Header -->
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
-        <span class="text-uppercase page-subtitle">Item ID:</span>
+        <span class="text-uppercase page-subtitle">条目ID:</span>
         <h3 class="page-title">{{ item_id }}</h3>
       </div>
     </div>
@@ -12,14 +12,14 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">Information</h6>
+            <h6 class="m-0">信息</h6>
           </div>
           <div class="card-body p-0 pb-3">
             <d-list-group flush>
               <d-list-group-item class="p-3" v-if="current_item != null">
                 <d-row>
                   <d-col sm="12" md="2">
-                    <label>Categories</label>
+                    <label>类别</label>
                   </d-col>
                   <d-col sm="12" md="10">
                     <d-badge
@@ -34,7 +34,7 @@
                 </d-row>
                 <d-row>
                   <d-col sm="12" md="2">
-                    <label>Timestamp</label>
+                    <label>时间戳</label>
                   </d-col>
                   <d-col sm="12" md="10">
                     <label class="text-light">{{
@@ -44,7 +44,7 @@
                 </d-row>
                 <d-row>
                   <d-col sm="12" md="2">
-                    <label>Labels</label>
+                    <label>标签</label>
                   </d-col>
                   <d-col sm="12" md="10">
                     <d-badge
@@ -59,7 +59,7 @@
                 </d-row>
                 <d-row>
                   <d-col sm="12" md="2">
-                    <label>Description</label>
+                    <label>描述</label>
                   </d-col>
                   <d-col sm="12" md="10">
                     <label class="text-light">{{ current_item.Comment }}</label>
@@ -77,7 +77,7 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">Related Items</h6>
+            <h6 class="m-0">相关条目</h6>
           </div>
           <div class="card-body border-bottom">
             <d-input-group prepend="Categories" class="mb-3">
@@ -97,10 +97,10 @@
               <thead class="bg-light">
                 <tr>
                   <th scope="col" class="border-0">ID</th>
-                  <th scope="col" class="border-0">Categories</th>
-                  <th scope="col" class="border-0">Timestamp</th>
-                  <th scope="col" class="border-0">Labels</th>
-                  <th scope="col" class="border-0">Description</th>
+                  <th scope="col" class="border-0">类别</th>
+                  <th scope="col" class="border-0">时间戳</th>
+                  <th scope="col" class="border-0">标签</th>
+                  <th scope="col" class="border-0">描述</th>
                 </tr>
               </thead>
               <tbody>

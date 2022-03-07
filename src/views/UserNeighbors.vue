@@ -3,7 +3,7 @@
     <!-- Page Header -->
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
-        <span class="text-uppercase page-subtitle">User ID:</span>
+        <span class="text-uppercase page-subtitle">用户ID：</span>
         <h3 class="page-title">{{ user_id }}</h3>
       </div>
     </div>
@@ -12,14 +12,14 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">Information</h6>
+            <h6 class="m-0">信息</h6>
           </div>
           <div class="card-body p-0 pb-3">
             <d-list-group flush>
               <d-list-group-item class="p-3" v-if="current_user != null">
                 <d-row>
                   <d-col sm="12" md="2">
-                    <label>Labels</label>
+                    <label>标签</label>
                   </d-col>
                   <d-col sm="12" md="10">
                     <d-badge
@@ -44,14 +44,14 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">Related Items</h6>
+            <h6 class="m-0">相关条目</h6>
           </div>
           <div class="card-body p-0 pb-3">
             <table class="table mb-0">
               <thead class="bg-light">
                 <tr>
                   <th scope="col" class="border-0">ID</th>
-                  <th scope="col" class="border-0">Labels</th>
+                  <th scope="col" class="border-0">标签</th>
                 </tr>
               </thead>
               <tbody>
@@ -76,7 +76,7 @@
                         params: { user_id: user.UserId },
                       }"
                     >
-                      <d-button size="small" outline>Insight</d-button>
+                      <d-button size="small" outline>了解</d-button>
                     </router-link>
                   </td>
                 </tr>
