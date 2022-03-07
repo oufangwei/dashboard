@@ -13,7 +13,7 @@ export default function () {
       name: 'tasks',
     },
   }, {
-    title: '聚簇',
+    title: '集群',
     htmlBefore: '<i class="material-icons">dns</i>',
     to: {
       name: 'cluster',
