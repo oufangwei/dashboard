@@ -3,8 +3,8 @@
     <!-- Page Header -->
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
-        <span class="text-uppercase page-subtitle">Overview</span>
-        <h3 class="page-title">Tasks</h3>
+        <span class="text-uppercase page-subtitle">概览</span>
+        <h3 class="page-title">任务</h3>
       </div>
     </div>
 
@@ -13,17 +13,17 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">All Tasks</h6>
+            <h6 class="m-0">全部任务</h6>
           </div>
           <div class="card-body p-0 pb-3">
             <table class="table mb-0">
               <thead class="bg-light">
                 <tr>
-                  <th scope="col" class="border-0">Name</th>
-                  <th scope="col" class="border-0">Status</th>
-                  <th scope="col" class="border-0">Start</th>
-                  <th scope="col" class="border-0">Finished</th>
-                  <th scope="col" class="border-0">Progress</th>
+                  <th scope="col" class="border-0">名称</th>
+                  <th scope="col" class="border-0">状态</th>
+                  <th scope="col" class="border-0">开始</th>
+                  <th scope="col" class="border-0">结束</th>
+                  <th scope="col" class="border-0">进度</th>
                 </tr>
               </thead>
               <tbody>
