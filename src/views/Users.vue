@@ -69,7 +69,7 @@
                         params: { user_id: user.UserId },
                       }"
                     >
-                      <d-button outline>邻居</d-button>
+                      <d-button outline>邻&nbsp;居</d-button>
                     </router-link>
                   </td>
                   <td>
@@ -79,7 +79,7 @@
                         params: { user_id: user.UserId },
                       }"
                     >
-                      <d-button size="small" outline>了解</d-button>
+                      <d-button size="small" outline>了&nbsp;解</d-button>
                     </router-link>
                   </td>
                 </tr>
@@ -95,18 +95,18 @@
 <script>
 import moment from 'moment';
 
-const axios = require("axios");
+const axios = require('axios');
 
 export default {
   data() {
     return {
       users: null,
-      cursor: "",
+      cursor: '',
       user_id: null,
     };
   },
   mounted() {
-    axios.get("/api/dashboard/users").then((response) => {
+    axios.get('/api/dashboard/users').then((response) => {
       this.users = response.data.Users;
       this.cursor = response.data.Cursor;
     });
@@ -114,7 +114,7 @@ export default {
   methods: {
     next_page() {
       axios
-        .get("/api/dashboard/users", {
+        .get('/api/dashboard/users', {
           params: {
             cursor: this.cursor,
           },
@@ -130,11 +130,11 @@ export default {
       });
     },
     format_date_time(timestamp) {
-      if (timestamp == "") {
-        return "";
+      if (timestamp === '') {
+        return '';
       }
       return moment(String(timestamp)).format('YYYY/MM/DD HH:mm');
-    }
+    },
   },
 };
 </script>

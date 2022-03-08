@@ -16,13 +16,13 @@
 
 <script>
 const defaultMenuItems = [{
-  title: 'Home',
+  title: '主页',
   to: 'https://gorse.io/',
 }, {
   title: 'GitHub',
   to: 'https://github.com/zhenghaoz/gorse',
 }, {
-  title: 'Document',
+  title: '文档',
   to: 'https://docs.gorse.io/',
 }];
 
