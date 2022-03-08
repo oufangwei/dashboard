@@ -13,14 +13,14 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">{{ section }}</h6>
+            <h6 class="m-0">{{ dict[section] }}</h6>
           </div>
           <div class="card-body p-0 pb-3">
             <d-list-group flush>
             <d-list-group-item class="p-3" v-for="(value, name) in settings" :key="name">
             <d-row>
               <d-col sm="12" md="2">
-               <label>{{ name }}</label>
+               <label>{{ dict[name] }}</label>
               </d-col>
               <d-col sm="12" md="10">
                 <d-input v-if="value == null" type="text" :placeholder="'missing `' + name + '` in configuration file'" state="invalid" readonly/>
@@ -45,6 +45,61 @@ export default {
   data() {
     return {
       config: null,
+      dict: {
+            "Database": "数据库",
+              "DataStore": "数据存储",
+              "CacheStore": "",
+              "AutoInsertUser": "",
+              "AutoInsertItem": "",
+              "CacheSize": "",
+              "PositiveFeedbackType": "",
+              "ReadFeedbackTypes": "",
+              "PositiveFeedbackTTL": "",
+              "ItemTTL": "",
+            "Master": "主节点",
+              "Port": "",
+              "Host": "",
+              "HttpPort": "",
+              "HttpHost": "",
+              "NumJobs": "",
+              "MetaTimeout": "",
+              "DashboardUserName": "",
+              "DashboardPassword": "",
+            "Server": "服务器节点",
+              "APIKey": "",
+              "DefaultN": "",
+            "Recommend": "推荐",
+              "PopularWindow": "",
+              "FitPeriod": "",
+              "SearchPeriod": "",
+              "SearchEpoch": "",
+              "SearchTrials": "",
+              "CheckRecommendPeriod": "",
+              "RefreshRecommendPeriod": "",
+              "FallbackRecommend": "",
+              "NumFeedbackFallbackItemBased": "",
+              "ExploreRecommend": "",
+              "EnableItemNeighborIndex": "",
+              "ItemNeighborType": "",
+              "ItemNeighborIndexRecall": "",
+              "ItemNeighborIndexFitEpoch": "",
+              "EnableUserNeighborIndex": "",
+              "UserNeighborType": "",
+              "UserNeighborIndexRecall": "",
+              "UserNeighborIndexFitEpoch": "",
+              "EnableLatestRecommend": "",
+              "EnablePopularRecommend": "",
+              "EnableUserBasedRecommend": "",
+              "EnableItemBasedRecommend": "",
+              "EnableColRecommend": "",
+              "EnableColIndex": "",
+              "ColIndexRecall": "",
+              "ColIndexFitEpoch": "",
+              "EnableClickThroughPrediction": "",
+              "EnableReplacement": "",
+              "PositiveReplacementDecay": "",
+              "ReadReplacementDecay": "",
+      },
     };
   },
   mounted() {
