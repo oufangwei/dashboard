@@ -85,7 +85,7 @@
                 </d-col>
                 <d-col md="2">
                   <strong class="text-muted d-block mb-2">&nbsp;</strong>
-                  <d-input-group prepend="Hidden" class="mb-3">
+                  <d-input-group prepend="隐藏" class="mb-3">
                     <d-select v-model="isHiddenColIdx">
                       <option
                         v-for="(name, idx) in previewHeader"
