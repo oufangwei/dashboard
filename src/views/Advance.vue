@@ -55,7 +55,7 @@
                 <d-row>
                   <d-col sm="12" md="2">
                     <a :href="'/api/bulk/feedback'">
-                      <d-button outline>导出反馈</d-button>
+                      <d-button outline>&nbsp;&nbsp;&nbsp;导出反馈&nbsp;&nbsp;&nbsp;</d-button>
                     </a>
                   </d-col>
                   <d-col sm="12" md="10">
@@ -112,7 +112,7 @@
                 <d-row>
                   <d-col sm="12" md="2">
                     <router-link :to="{ name: 'import_feedback' }">
-                      <d-button outline>导入反馈</d-button>
+                      <d-button outline>&nbsp;&nbsp;&nbsp;导入反馈&nbsp;&nbsp;&nbsp;</d-button>
                     </router-link>
                   </d-col>
                   <d-col sm="12" md="10">
