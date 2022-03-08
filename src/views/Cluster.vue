@@ -3,7 +3,7 @@
     <!-- Page Header -->
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
-        <span class="text-uppercase page-subtitle">Overview</span>
+        <span class="text-uppercase page-subtitle">概览</span>
         <h3 class="page-title">Cluster</h3>
       </div>
     </div>
@@ -13,16 +13,16 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">Active Nodes</h6>
+            <h6 class="m-0">活跃节点</h6>
           </div>
           <div class="card-body p-0 pb-3 text-center">
             <table class="table mb-0">
               <thead class="bg-light">
                 <tr>
-                  <th scope="col" class="border-0">Type</th>
-                  <th scope="col" class="border-0">Name</th>
+                  <th scope="col" class="border-0">类型</th>
+                  <th scope="col" class="border-0">名称</th>
                   <th scope="col" class="border-0">IP</th>
-                  <th scope="col" class="border-0">Links</th>
+                  <th scope="col" class="border-0">链接</th>
                 </tr>
               </thead>
               <tbody>
