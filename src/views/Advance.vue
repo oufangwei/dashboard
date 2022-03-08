@@ -90,7 +90,7 @@
                     </router-link>
                   </d-col>
                   <d-col sm="12" md="10">
-                    <label>将用户数据导入gorse。</label>
+                    <label>将用户数据导入智能推荐系统。</label>
                   </d-col>
                 </d-row>
               </d-list-group-item>
@@ -104,7 +104,7 @@
                     </router-link>
                   </d-col>
                   <d-col sm="12" md="10">
-                    <label>将条目数据导入gorse。</label>
+                    <label>将条目数据导入智能推荐系统。</label>
                   </d-col>
                 </d-row>
               </d-list-group-item>
@@ -116,7 +116,7 @@
                     </router-link>
                   </d-col>
                   <d-col sm="12" md="10">
-                    <label>将反馈数据导入gorse。</label>
+                    <label>将反馈数据导入智能推荐系统。</label>
                   </d-col>
                 </d-row>
               </d-list-group-item>

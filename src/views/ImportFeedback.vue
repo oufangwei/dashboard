@@ -3,8 +3,8 @@
     <!-- Page Header -->
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
-        <span class="text-uppercase page-subtitle">Preview</span>
-        <h3 class="page-title">Import Feedback</h3>
+        <span class="text-uppercase page-subtitle">预览</span>
+        <h3 class="page-title">导入反馈</h3>
       </div>
     </div>
     <d-alert
@@ -22,7 +22,7 @@
             <d-form validated>
               <d-form-row>
                 <d-col md="9" class="form-group">
-                  <strong class="text-muted d-block mb-2">File</strong>
+                  <strong class="text-muted d-block mb-2">文件</strong>
                   <div class="custom-file mb-3">
                     <input
                       type="file"
@@ -35,12 +35,12 @@
                       fileName
                     }}</label>
                     <d-form-invalid-feedback
-                      >Upload local csv file.</d-form-invalid-feedback
+                      >上传本地csv文件。</d-form-invalid-feedback
                     >
                   </div>
                 </d-col>
                 <d-col md="3" class="form-group">
-                  <label for="fieldSeparator">Field Separator</label>
+                  <label for="fieldSeparator">字段分隔符</label>
                   <d-input
                     id="fieldSeparator"
                     type="text"
@@ -48,7 +48,7 @@
                     required
                   />
                   <d-form-invalid-feedback
-                    >Field separator is required!</d-form-invalid-feedback
+                    >需要填写字段分隔符！</d-form-invalid-feedback
                   >
                 </d-col>
               </d-form-row>
@@ -57,9 +57,9 @@
               <d-form-row>
                 <d-col md="3">
                   <strong class="text-muted d-block mb-2"
-                    >Field Matching</strong
+                    >字段匹配</strong
                   >
-                  <d-input-group prepend="FeedbackType" class="mb-3">
+                  <d-input-group prepend="反馈类型" class="mb-3">
                     <d-select v-model="feedbackTypeColIdx">
                       <option
                         v-for="(name, idx) in previewHeader"
@@ -73,7 +73,7 @@
                 </d-col>
                 <d-col md="3">
                   <strong class="text-muted d-block mb-2">&nbsp;</strong>
-                  <d-input-group prepend="UserId" class="mb-3">
+                  <d-input-group prepend="用户ID" class="mb-3">
                     <d-select v-model="userIdColIdx">
                       <option
                         v-for="(name, idx) in previewHeader"
@@ -87,7 +87,7 @@
                 </d-col>
                 <d-col md="3">
                   <strong class="text-muted d-block mb-2">&nbsp;</strong>
-                  <d-input-group prepend="ItemId" class="mb-3">
+                  <d-input-group prepend="条目ID" class="mb-3">
                     <d-select v-model="itemIdColIdx">
                       <option
                         v-for="(name, idx) in previewHeader"
@@ -101,7 +101,7 @@
                 </d-col>
                 <d-col md="3">
                   <strong class="text-muted d-block mb-2">&nbsp;</strong>
-                  <d-input-group prepend="Timestamp" class="mb-3">
+                  <d-input-group prepend="时间戳" class="mb-3">
                     <d-select v-model="timestampColIdx">
                       <option
                         v-for="(name, idx) in previewHeader"
@@ -115,10 +115,10 @@
                 </d-col>
                 <d-col md="10" class="form-group">
                   <d-checkbox v-model="hasHeader"
-                    >The first line is the header.</d-checkbox
+                    >第一行是标题。</d-checkbox
                   >
                 </d-col>
-                <d-col md="2"> <d-button>Comfirm Import</d-button></d-col>
+                <d-col md="2"> <d-button>确认导入</d-button></d-col>
               </d-form-row>
             </d-form>
           </div>
@@ -187,7 +187,7 @@ export default {
   data() {
     return {
       fieldSeparator: ',',
-      fileName: 'Choose file...',
+      fileName: '选择文件...',
       hasHeader: true,
       text: '',
       feedbackTypeColIdx: 0,
@@ -308,7 +308,7 @@ export default {
       // 2. file must be chosen
       const csvfile = document.querySelector('#csvFile');
       if (csvfile.files.length === 0) {
-        this.showDanger('file must be chosen');
+        this.showDanger('必须选择文件');
         return;
       }
       formData.append('file', csvfile.files[0]);
