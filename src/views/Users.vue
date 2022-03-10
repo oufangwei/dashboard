@@ -4,7 +4,7 @@
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
         <span class="text-uppercase page-subtitle">概览</span>
-        <h3 class="page-title">用户</h3>
+        <h3 class="page-title">用户特征</h3>
       </div>
     </div>
 
@@ -13,7 +13,7 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">用户</h6>
+            <h6 class="m-0">用户特征</h6>
           </div>
           <div class="card-body border-bottom">
             <d-input-group>
@@ -37,7 +37,7 @@
             <table class="table mb-0">
               <thead class="bg-light">
                 <tr>
-                  <th scope="col" class="border-0">ID</th>
+                  <th scope="col" class="border-0">用户ID</th>
                   <th scope="col" class="border-0">标签</th>
                   <th scope="col" class="border-0">最近活跃</th>
                   <th scope="col" class="border-0">最近更新</th>

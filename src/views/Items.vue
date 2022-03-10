@@ -4,7 +4,7 @@
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
         <span class="text-uppercase page-subtitle">概览</span>
-        <h3 class="page-title">条目</h3>
+        <h3 class="page-title">问题/活动特征</h3>
       </div>
     </div>
 
@@ -13,13 +13,13 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">条目</h6>
+            <h6 class="m-0">问题/活动特征</h6>
           </div>
           <div class="card-body border-bottom">
             <d-input-group>
               <d-input
                 id="item_id"
-                placeholder="条目ID"
+                placeholder="问题/活动ID"
                 v-model="item_id"
                 @keyup.enter.native="search_item"
               />
@@ -37,7 +37,7 @@
             <table class="table mb-0">
               <thead class="bg-light">
                 <tr>
-                  <th scope="col" class="border-0">ID</th>
+                  <th scope="col" class="border-0">问题/活动ID</th>
                   <th scope="col" class="border-0">类别</th>
                   <th scope="col" class="border-0">隐藏</th>
                   <th scope="col" class="border-0">时间戳</th>

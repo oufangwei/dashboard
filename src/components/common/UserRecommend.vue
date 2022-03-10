@@ -119,7 +119,7 @@ export default {
         { value: '', text: '推荐' },
         { value: 'offline', text: '离线推荐' },
         { value: 'collaborative', text: '协同推荐' },
-        { value: 'item_based', text: '基于条目的推荐' },
+        { value: 'item_based', text: '基于问题和活动的推荐' },
         { value: 'user_based', text: '基于用户的推荐' },
       ],
     };

@@ -19,13 +19,13 @@ export default function () {
       name: 'cluster',
     },
   }, {
-    title: '用户',
+    title: '用户特征',
     htmlBefore: '<i class="material-icons">person</i>',
     to: {
       name: 'users',
     },
   }, {
-    title: '条目',
+    title: '问题/活动特征',
     htmlBefore: '<i class="material-icons">inventory_2</i>',
     to: {
       name: 'items',

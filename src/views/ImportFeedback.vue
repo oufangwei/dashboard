@@ -87,7 +87,7 @@
                 </d-col>
                 <d-col md="3">
                   <strong class="text-muted d-block mb-2">&nbsp;</strong>
-                  <d-input-group prepend="条目ID" class="mb-3">
+                  <d-input-group prepend="问题/活动ID" class="mb-3">
                     <d-select v-model="itemIdColIdx">
                       <option
                         v-for="(name, idx) in previewHeader"
