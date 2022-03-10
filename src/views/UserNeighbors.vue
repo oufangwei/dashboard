@@ -76,7 +76,7 @@
                         params: { user_id: user.UserId },
                       }"
                     >
-                      <d-button size="small" outline>了&nbsp;解</d-button>
+                      <d-button size="small" outline>详&nbsp;细&nbsp;了&nbsp;解</d-button>
                     </router-link>
                   </td>
                 </tr>
