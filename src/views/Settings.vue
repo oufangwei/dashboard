@@ -95,7 +95,7 @@ export default {
               "EnableColIndex": "启用向量索引进行近似协同过滤推荐",
               "ColIndexRecall": "近似协同过滤推荐的最小召回率",
               "ColIndexFitEpoch": "近似协同过滤推荐的最大训练次数",
-              "EnableClickThroughPrediction": "在离线推荐期间启用点击率预测。",
+              "EnableClickThroughPrediction": "在离线推荐期间启用点击率预测",
               "EnableReplacement": "将历史条目替换回推荐",
               "PositiveReplacementDecay": "衰减正向反馈中的替换权重",
               "ReadReplacementDecay": "衰减读取反馈中的替换权重",
