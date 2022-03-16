@@ -25,10 +25,10 @@
     <d-row>
       <d-col lg="7" md="12" sm="12" class="mb-4">
         <d-tabs>
-          <d-tab title="热门条目" active>
+          <d-tab title="热门问题/活动" active>
             <bo-top-items :api="'/api/dashboard/popular/'" />
           </d-tab>
-          <d-tab title="最新条目">
+          <d-tab title="最新问题/活动">
             <bo-top-items :api="'/api/dashboard/latest/'" />
           </d-tab>
         </d-tabs>
@@ -66,19 +66,19 @@ export default {
          value: '--',
          tip: '',
        }, {
-         label: '条目',
+         label: '问题/活动',
          value: '--',
          tip: '',
        }, {
-         label: '全部正向',
+         label: '全部正向反馈',
          value: '--',
          tip: '',
        }, {
-         label: '有效正向',
+         label: '有效正向反馈',
          value: '--',
          tip: '只有当该用户同时拥有正面反馈和负面反馈时，正面反馈才有效',
        }, {
-         label: '有效负向',
+         label: '有效负向反馈',
          value: '--',
          tip: '只有当该用户同时拥有正面反馈和负面反馈时，负面反馈才有效',
        }],
