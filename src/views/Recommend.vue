@@ -30,7 +30,7 @@
                     <label>用户姓名</label>
                   </d-col>
                   <d-col sm="12" md="10">
-                    <label class="text-light">{{ current_user.user_name }}</label>
+                    <label class="text-light">{{ current_user.User_name }}</label>
                   </d-col>
                 </d-row>
                 <d-row>
@@ -38,7 +38,7 @@
                     <label>用户性别</label>
                   </d-col>
                   <d-col sm="12" md="10">
-                    <label class="text-light">{{ current_user.user_name }}</label>
+                    <label class="text-light">{{ current_user.Gender }}</label>
                   </d-col>
                 </d-row>
                 <d-row>
