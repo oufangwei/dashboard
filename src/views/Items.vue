@@ -85,7 +85,7 @@
                         params: { item_id: item.ItemId },
                       }"
                     >
-                      <d-button size="small" outline>邻&nbsp;居&nbsp;节&nbsp;点</d-button>
+                      <d-button size="small" outline>近&nbsp;邻</d-button>
                     </router-link>
                   </td>
                 </tr>

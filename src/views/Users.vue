@@ -69,7 +69,7 @@
                         params: { user_id: user.UserId },
                       }"
                     >
-                      <d-button outline>邻&nbsp;居&nbsp;节&nbsp;点</d-button>
+                      <d-button outline>近&nbsp;邻</d-button>
                     </router-link>
                   </td>
                   <td>
@@ -79,7 +79,7 @@
                         params: { user_id: user.UserId },
                       }"
                     >
-                      <d-button size="small" outline>详&nbsp;细&nbsp;了&nbsp;解</d-button>
+                      <d-button size="small" outline>详&nbsp;情</d-button>
                     </router-link>
                   </td>
                 </tr>
