@@ -96,7 +96,7 @@
             <table class="table mb-0">
               <thead class="bg-light">
                 <tr>
-                  <th scope="col" class="border-0">ID</th>
+                  <th scope="col" class="border-0">问题/活动ID</th>
                   <th scope="col" class="border-0">类别</th>
                   <th scope="col" class="border-0">时间戳</th>
                   <th scope="col" class="border-0">标签</th>

@@ -50,7 +50,7 @@
             <table class="table mb-0">
               <thead class="bg-light">
                 <tr>
-                  <th scope="col" class="border-0">ID</th>
+                  <th scope="col" class="border-0">用户ID</th>
                   <th scope="col" class="border-0">标签</th>
                 </tr>
               </thead>
