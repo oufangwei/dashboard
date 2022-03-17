@@ -44,7 +44,7 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">相关问题/活动</h6>
+            <h6 class="m-0">相关用户</h6>
           </div>
           <div class="card-body p-0 pb-3">
             <table class="table mb-0">
