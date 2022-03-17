@@ -4,7 +4,7 @@
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
         <span class="text-uppercase page-subtitle">预览</span>
-        <h3 class="page-title">导入条目</h3>
+        <h3 class="page-title">导入问题/活动</h3>
       </div>
     </div>
     <d-alert

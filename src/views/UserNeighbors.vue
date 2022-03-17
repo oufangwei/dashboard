@@ -44,13 +44,13 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">相关条目</h6>
+            <h6 class="m-0">相关用户</h6>
           </div>
           <div class="card-body p-0 pb-3">
             <table class="table mb-0">
               <thead class="bg-light">
                 <tr>
-                  <th scope="col" class="border-0">ID</th>
+                  <th scope="col" class="border-0">用户ID</th>
                   <th scope="col" class="border-0">标签</th>
                 </tr>
               </thead>
