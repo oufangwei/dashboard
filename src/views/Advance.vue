@@ -39,13 +39,13 @@
                   <d-col sm="12" md="2">
                     <a :href="'/api/bulk/items'">
                       <d-button class="advance_button" outline
-                        >&nbsp;&nbsp;&nbsp;导出条目&nbsp;&nbsp;&nbsp;</d-button
+                        >&nbsp;&nbsp;&nbsp;导出问题/活动&nbsp;&nbsp;&nbsp;</d-button
                       >
                     </a>
                   </d-col>
                   <d-col sm="12" md="10">
                     <label
-                      >将条目数据导出到csv文件。格式为“item_id, is_hidden, categories,
+                      >将问题/活动数据导出到csv文件。格式为“item_id, is_hidden, categories,
                       timestamp, labels, description”。</label
                     >
                   </d-col>
@@ -99,12 +99,12 @@
                   <d-col sm="12" md="2">
                     <router-link :to="{ name: 'import_items' }">
                       <d-button outline
-                        >&nbsp;&nbsp;&nbsp;导入条目&nbsp;&nbsp;&nbsp;</d-button
+                        >&nbsp;&nbsp;&nbsp;导入问题/活动&nbsp;&nbsp;&nbsp;</d-button
                       >
                     </router-link>
                   </d-col>
                   <d-col sm="12" md="10">
-                    <label>将条目数据导入智能推荐系统。</label>
+                    <label>将问题/活动数据导入智能推荐系统。</label>
                   </d-col>
                 </d-row>
               </d-list-group-item>
