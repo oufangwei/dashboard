@@ -3,7 +3,7 @@
     <!-- Page Header -->
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
-        <span class="text-uppercase page-subtitle">条目ID:</span>
+        <span class="text-uppercase page-subtitle">问题/活动ID:</span>
         <h3 class="page-title">{{ item_id }}</h3>
       </div>
     </div>
@@ -77,7 +77,7 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">相关条目</h6>
+            <h6 class="m-0">相关问题/活动</h6>
           </div>
           <div class="card-body border-bottom">
             <d-input-group prepend="Categories" class="mb-3">
