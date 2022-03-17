@@ -2,7 +2,7 @@
   <d-card class="card-small">
     <!-- Card Header -->
     <d-card-header class="border-bottom">
-      <h6 class="m-0">推荐</h6>
+      <h6 class="m-0">为此用户推荐的问题/活动</h6>
       <div class="block-handle"></div>
     </d-card-header>
 
