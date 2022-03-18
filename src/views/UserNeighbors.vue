@@ -12,14 +12,38 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">信息</h6>
+            <h6 class="m-0">用户信息</h6>
           </div>
           <div class="card-body p-0 pb-3">
             <d-list-group flush>
               <d-list-group-item class="p-3" v-if="current_user != null">
                 <d-row>
                   <d-col sm="12" md="2">
-                    <label>标签</label>
+                    <label>用户ID</label>
+                  </d-col>
+                  <d-col sm="12" md="10">
+                    <label class="text-light">{{ user_id }}</label>
+                  </d-col>
+                </d-row>
+                <d-row>
+                  <d-col sm="12" md="2">
+                    <label>用户姓名</label>
+                  </d-col>
+                  <d-col sm="12" md="10">
+                    <label class="text-light">{{ current_user.User_name }}</label>
+                  </d-col>
+                </d-row>
+                <d-row>
+                  <d-col sm="12" md="2">
+                    <label>用户性别</label>
+                  </d-col>
+                  <d-col sm="12" md="10">
+                    <label class="text-light">{{ current_user.Gender }}</label>
+                  </d-col>
+                </d-row>
+                <d-row>
+                  <d-col sm="12" md="2">
+                    <label>用户标签（用户画像）</label>
                   </d-col>
                   <d-col sm="12" md="10">
                     <d-badge
