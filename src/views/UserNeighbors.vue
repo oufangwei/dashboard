@@ -30,7 +30,7 @@
                     <label>用户姓名</label>
                   </d-col>
                   <d-col sm="12" md="10">
-                    <label class="text-light">{{ current_user.User_name }}</label>
+                    <label class="text-light">{{ current_user.UserName }}</label>
                   </d-col>
                 </d-row>
                 <d-row>
